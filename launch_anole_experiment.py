@@ -13,6 +13,8 @@ import numpy as np
 
 import sys
 sys.path.append("./pearl")
+os.add_dll_directory("C://Users//78691//.mujoco//mujoco200//bin")
+sys.path.append("C://Users//78691//.mujoco//mujoco-py-2.0.2.5")
 from rlkit.torch.sac.policies import TanhGaussianPolicy
 from rlkit.torch.networks import FlattenMlp
 from rlkit.launchers.launcher_util import setup_logger
